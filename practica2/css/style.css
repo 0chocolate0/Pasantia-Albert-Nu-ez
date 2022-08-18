@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/practica2/assets/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.header__logo i{
+   color: white;
+   font-size: 15rem;
+   margin-bottom: 8rem;
+
+
+}
+.header__menu{
+    width: 900px;
+    margin-bottom: 8rem;
+}
+.header__menu a{
+    font-size: 4rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+}
+
+.main__services{
+    width: 90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+  
+}
+.main__services__h2{
+    margin-left: 9rem;
+    font-size: 5rem;
+ 
+
+}
+.main__services__cards{
+    width: 70%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    place-self: center;
+    margin-top: -20rem;
+}
+.main__services__card{
+    height: 60vh;
+    width: 18vw;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    transition: transform 300ms ease-in-out;
+    cursor: pointer;
+
+}
+.main__services__card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+.main__services__card h3{
+    margin-top: 2rem;
+    
+}
+.main__services__card:hover{
+    transform: scale(1.1);
+
+}
+.main__nosotros{
+    height: 100vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.main__nosotros h2{
+    font-size: 5rem;
+    margin-left: 9rem;
+
+}
+.main__nosotros__text{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    place-self: center;
+    margin-top: -28rem;
+    font-size: 26px;
+}
+.main__nosotros__text p{
+    margin-bottom: 2rem;
+}
+
+.main__acerca{
+    height: 100vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.main__acerca h2{
+    font-size: 5rem;
+    margin-left: 9rem;
+
+}
+.main__acerca__text{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    place-self: center;
+    margin-top: -28rem;
+    font-size: 26px;
+}
+.main__acerca__text p{
+    margin-bottom: 2rem;
+}
+.footer{
+    height: 150px;
+    background-color: #d9d9d9;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+}
